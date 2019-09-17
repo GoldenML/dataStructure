@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * @author yanghui
  * @create 2019-09-07 10:34
- * @description
+ * @description    线索二叉树
  */
 public class ThreadedBinaryTreeDemo {
     public static void main(String[] args) {

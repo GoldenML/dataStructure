@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author yanghui
  * @create 2019-09-02 22:47
- * @description
+ * @description   二分查找递归
  */
 public class BinarySearch {
     public static void main(String[] args) {
@@ -30,7 +30,6 @@ public class BinarySearch {
                 list.add(mid);
 
                 temp = mid +1;
-
                 while (true) {
                     if (temp == -1 || arr[temp] != value) {
                         break;
